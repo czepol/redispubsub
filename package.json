@@ -1,16 +1,17 @@
 {
-    "name":"redispubsub",
-    "version":"0.0.1",
-    "private":true,
-    "scripts":{
-        "start":"node app"
-    },
-    "dependencies":{
-        "express":"3.x",
-        "ejs":"*",
-        "socket.io":"*" ,
-        "session.socket.io":"*",
-        "redis": "*",
-        "connect-redis": "*"
-    }
+  "name": "redispubsub",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "connect-redis": "*",
+    "ejs": "*",
+    "express": "4.x",
+    "express-session": "^1.10.4",
+    "redis": "*",
+    "session.socket.io": "*",
+    "socket.io": "*"
+  }
 }

@@ -1,4 +1,5 @@
 var express = require('express')
+    , session = require('express-session')
     , routes = require('./routes')
     , http = require('http')
     , path = require('path')
@@ -22,7 +23,7 @@ io.set('log level', 1);
 /*
  Also use Redis for Session Store. Redis will keep all Express sessions in it.
  */
-var RedisStore = require('connect-redis')(express),
+var RedisStore = require('connect-redis')(session),
     rClient = redis.createClient(),
     sessionStore = new RedisStore({client:rClient});
 

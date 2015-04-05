@@ -1,3 +1,10 @@
+## Update notes
+
+Now the code works with Express 4.x.
+
+---
+
+
 One of the most common things people build on Node.js are real-time apps like chat apps, social networking apps etc. There are plenty of examples showing how to build such apps on the web, but it’s hard to find an example that shows how to deal with real-time apps that are scaled and are running with multiple instances. You will need to deal with issues like sticky sessions, scale-up/down, instance crash/restart, and more for apps that will scale. This post will show you how to manage these scaling requirements.
 
 ***

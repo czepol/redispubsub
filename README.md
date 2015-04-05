@@ -1,3 +1,8 @@
+## Update notes
+
+Now the code works with Express 4.x.
+
+---
 
 
 # Scaling real-time apps on Cloud Foundry (using Redis)
